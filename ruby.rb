@@ -2,7 +2,7 @@ puts "Bubble Sort"
 
 def bubble_sort arr 
     for j in 0...arr.size
-        for i in (0...arr.size)
+        for i in (0...arr.size - j)
             if arr[i+1] == nil
             elsif arr[i] > arr[i+1]
                 temp = arr[i]
