@@ -11,7 +11,7 @@ def bubble_sort arr
             end
         end
     end
-    p arr
+    puts "Sorted Array #{arr}"
 end
 
 print "Enter The size of Array: "
@@ -22,6 +22,7 @@ for i in 0...array_size
     item = gets.chomp.to_i
     new_array.push(item)
 end
-p new_array
+puts
+puts "Unsorted Array #{new_array}"
 
 bubble_sort(new_array)
